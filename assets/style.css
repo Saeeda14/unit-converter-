@@ -27,10 +27,16 @@ h1 {
 
 #num-input { 
   background-color: var(--light-color);
-  padding: 35px 50px;
+  padding: 10px;
+  width: 70px; 
   margin-bottom: 20px;
   border-radius: 5px;
   border: 2px solid white;
+  color: white; 
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center; 
+  font-family: 'Roboto', sans-serif;
 }
 
 button { 
@@ -42,6 +48,12 @@ button {
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   color: var(--dark-color);
+}
+
+#error-message { 
+  color: red; 
+  display: none;
+  margin-top: 10px;
 }
 
 #units { 
