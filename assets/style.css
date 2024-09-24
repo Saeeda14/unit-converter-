@@ -5,9 +5,9 @@
 }
 
 body { 
-  margin: 0 auto;
+  margin: 20px auto;
   color: var(--secondary-color);
-  max-width: 1200px;
+  max-width: 600px;
 }
 
 h1 { 
@@ -67,9 +67,14 @@ button {
   background-color: var(--inner-color);
   margin: 20px 5px;
   padding: 5px;
-  padding-bottom: 30px;
   text-align: center; 
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+}
+
+#length-div p, #volume-div p, #mass-div p {
+  color: white;
+  font-weight: lighter;
+  font-size: 12px;
 }
